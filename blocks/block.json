@@ -1,0 +1,22 @@
+{
+  "apiVersion": 2,
+  "name": "dmg/read-more",
+  "title": "Read More",
+  "category": "common",
+  "icon": "admin-links",
+  "attributes": {
+    "postID": {
+      "type": "number",
+      "default": 0
+    },
+    "postTitle": {
+      "type": "string",
+      "default": ""
+    },
+    "postLink": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "editorScript": "file:./index.js"
+}
