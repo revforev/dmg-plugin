@@ -88,7 +88,7 @@
       const {postID, postTitle, postLink} = props.attributes;
       return postID ? (
         <p className="dmg-read-more">
-          Read More: <a href={postLink}>{postTitle}</a>
+          Read More : <a href={postLink}>{postTitle}</a>
         </p>
       ) : null;
     },
